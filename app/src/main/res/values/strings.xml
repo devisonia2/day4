@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">day4</string>
+    <string name="your_name">Your Name</string>
+    <string name="enter_your_name">Enter Your Name\n</string>
+    <string name="enter_your_number">Enter Your Number</string>
+    <string name="enter_your_birthdate">Enter Your Bithdate</string>
+    <string name="enetr_your_birthdate">Enter Your Birthdate</string>
+    <string name="Are_You_Studying">Are You Studying</string>
 </resources>

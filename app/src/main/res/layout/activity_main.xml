@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your Name"
+        android:text="@string/your_name"
         android:textSize="20sp"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="10dp"/>
@@ -31,7 +31,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="enter the name"
+        android:hint="@string/enter_your_name"
         android:inputType="textPersonName"
         android:id="@+id/name"
         android:layout_marginTop="25dp"
@@ -46,7 +46,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your Number"
+        android:text="@string/enter_your_number"
         android:layout_marginTop="25dp"
         android:textSize="20sp"
         android:layout_marginLeft="10dp"
@@ -55,7 +55,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="enter the number"
+        android:hint="@string/enter_your_number"
         android:inputType="number"
         android:maxLength="10"
         android:layout_marginTop="25dp"
@@ -64,14 +64,13 @@
     </LinearLayout>
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your Birth Date"
+        android:text="@string/enetr_your_birthdate"
         android:textSize="20sp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="25dp"/>
@@ -79,7 +78,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="birthdate"
+        android:hint="@string/enetr_your_birthdate"
         android:maxLength="2"
         android:inputType="date"
         android:layout_marginTop="25dp"
@@ -91,7 +90,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Are You Studying"
+        android:text="@string/Are_You_Studying"
         android:textSize="30sp"
         android:textStyle="italic"
         android:layout_marginTop="20sp"

@@ -1,6 +1,5 @@
 package com.sonia.day4
 
-import SecondActivity
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
